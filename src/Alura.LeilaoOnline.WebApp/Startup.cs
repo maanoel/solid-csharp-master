@@ -5,6 +5,9 @@ namespace Alura.LeilaoOnline.WebApp
 {
     public class Startup
     {
+        //https://refactoring.guru/refactoring/smells
+
+
         public void ConfigureServices(IServiceCollection services)
         {
             services
