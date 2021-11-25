@@ -5,7 +5,7 @@ using Alura.LeilaoOnline.WebApp.Dados;
 
 namespace Alura.LeilaoOnline.WebApp.Seeding
 {
-    public static class DatabaseGenerator
+	public static class DatabaseGenerator
     {
         public static void Seed()
         {
