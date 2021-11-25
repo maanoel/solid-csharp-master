@@ -17,5 +17,4 @@ namespace Alura.LeilaoOnline.WebApp.Dados
 
 		public void Excluir(Leilao leilao);
 	}
-	}
 }
