@@ -5,6 +5,7 @@ using Alura.LeilaoOnline.WebApp.Dados;
 using Alura.LeilaoOnline.WebApp.Models;
 using System;
 using System.Collections.Generic;
+using Alura.LeilaoOnline.WebApp.Dados.EfCore;
 
 namespace Alura.LeilaoOnline.WebApp.Controllers
 {
@@ -12,12 +13,12 @@ namespace Alura.LeilaoOnline.WebApp.Controllers
 	{
 
 		AppDbContext _context;
-		LeilaoDao  _dao;
+		LeilaoDaoComEfCore  _dao;
 
 		public LeilaoController()
 		{
 			_context = new AppDbContext();
-			_dao = new LeilaoDao();
+			_dao = new LeilaoDaoComEfCore();
 		}
 
 		public IEnumerable<Categoria> BuscarCategorias()
